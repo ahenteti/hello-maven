@@ -8,7 +8,8 @@
   <artifactId>hello-maven</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>hello-maven</name>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>A hello-world maven library</description>
   <url>https://github.com/ahenteti/hello-maven</url>
 
   <properties>
@@ -16,6 +17,28 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Ahmed HENTETI</name>
+      <email>ahmad.henteti@gmail.com</email>
+      <organization>com.github.ahenteti</organization>
+      <organizationUrl>https://github.com/ahenteti/hello-maven</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/ahenteti/hello-maven.git</connection>
+    <developerConnection>scm:git:ssh://github.com:ahenteti/hello-maven.git</developerConnection>
+    <url>https://github.com/ahenteti/hello-maven</url>
+  </scm>
 
   <dependencies>
     <dependency>
