@@ -1,1 +1,1 @@
-# hello-maven-central-repository
+# hello-maven
