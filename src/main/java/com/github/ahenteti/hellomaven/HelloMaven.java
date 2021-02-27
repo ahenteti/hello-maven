@@ -1,4 +1,4 @@
-package com.github.ahenteti.hellomaven.hellomaven;
+package com.github.ahenteti.hellomaven;
 
 public class HelloMaven {
 
